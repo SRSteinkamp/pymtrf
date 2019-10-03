@@ -128,22 +128,26 @@ References
 
 - Lalor EC, Pearlmutter BA, Reilly RB, McDarby G, Foxe JJ (2006) The
   VESPA: a method for the rapid estimation of a visual evoked potential.
-  NeuroImage 32:1549-1561.
+  NeuroImage 32:1549-1561. https://doi.org/10.1016/j.neuroimage.2006.05.054
 - Gonçalves NR, Whelan R, Foxe JJ, Lalor EC (2014) Towards obtaining
   spatiotemporally precise responses to continuous sensory stimuli in
   humans: a general linear modeling approach to EEG. NeuroImage 97(2014):196-205.
+  https://doi.org/10.1016/j.neuroimage.2014.04.012
 - Lalor, EC, & Foxe, JJ (2010) Neural responses to uninterrupted natural
   speech can be extracted with precise temporal resolution. Eur J Neurosci
-  31(1):189-193.
+  31(1):189-193. https://doi.org/10.1111/j.1460-9568.2009.07055.x
 - Crosse MC, Di Liberto GM, Bednar A, Lalor EC (2015) The multivariate
   temporal response function (mTRF) toolbox: a MATLAB toolbox for relating
   neural signals to continuous stimuli. Front Hum Neurosci 10:604.
+  https://dx.doi.org/10.3389%2Ffnhum.2016.00604
 - Haufe S, Meinecke F, Gorgen K, Dahne S, Haynes JD, Blankertz B,
-        Bießmann F (2014) On the interpretation of weight vectors of
-        linear models in multivariate neuroimaging. NeuroImage 87:96-110.
+  Bießmann F (2014) On the interpretation of weight vectors of
+  linear models in multivariate neuroimaging. NeuroImage 87:96-110.
+  https://doi.org/10.1016/j.neuroimage.2013.10.067
 - Crosse MC, Butler JS, Lalor EC (2015) Congruent visual speech
-        enhances cortical entrainment to continuous auditory speech in
-        noise-free conditions. J Neurosci 35(42):14195-14204.
+  enhances cortical entrainment to continuous auditory speech in
+  noise-free conditions. J Neurosci 35(42):14195-14204.
+  https://doi.org/10.1523/JNEUROSCI.1829-15.2015
 
 TODO
 ====
