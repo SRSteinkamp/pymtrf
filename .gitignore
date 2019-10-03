@@ -1,0 +1,11 @@
+venv/
+*pyc
+.ipynb_checkpoints/
+.idea/
+.eggs/
+*.egg-info
+*.pyc
+pymtrf/**/__pycache__
+pymtrf/pymtrf/test/context.py
+.vscode
+.pytest_cache
