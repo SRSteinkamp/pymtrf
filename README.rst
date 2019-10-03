@@ -35,7 +35,7 @@ Due to the use of the f'' format string the Python version ist set to 3.6, it is
 Installation
 ~~~~~~~~~~~~
 
-Cone or download the repository and move (cd) into the pymtrf folder. Simply run :code:`pip install .`. This has so far only been test using pip 18.1. You can run the tests in the folder usinge :code:`python setup.py pytest`, this will require pytest.
+Cone or download the repository and move (cd) into the pymtrf folder. Run :code:`pip install .`. This has so far only been test using pip 18.1. You can run the tests in the folder usinge :code:`python setup.py pytest`, this will require pytest. Another way is to install via pip and git+, however, this also downloads the example data, which is quite a lot (and proably not wanted).
 
 Functions
 =========
