@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/SRSteinkamp/pymtrf.svg?branch=master)](https://travis-ci.org/SRSteinkamp/pymtrf)
+.. image:: https://travis-ci.org/SRSteinkamp/pymtrf.svg?branch=master
+    :target: https://travis-ci.org/SRSteinkamp/pymtrf
 
 pymtrf
 ======
