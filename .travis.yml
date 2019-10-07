@@ -1,9 +1,10 @@
 # Test push
-os:
-  - linux
-dist:
-  - xenial
-
+matrix:
+    include:
+      - os: linux
+        dist: xenial   
+      - os: osx
+        
 language: python
 python:
   - "3.6"
