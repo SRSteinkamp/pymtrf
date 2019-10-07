@@ -1,6 +1,7 @@
-.. image:: https://travis-ci.org/SRSteinkamp/pymtrf.svg?branch=master
-    :target: https://travis-ci.org/SRSteinkamp/pymtrf
+|Travis| |Codecov|
 
+
+   
 pymtrf
 ======
 
@@ -165,3 +166,10 @@ Wishlist
 
 - mtrf_class following scikit-learn API
 - mne-python workflow (need data set...)
+
+
+.. |Travis| image:: https://travis-ci.org/SRSteinkamp/pymtrf.svg?branch=master
+    :target: https://travis-ci.org/SRSteinkamp/pymtrf 
+
+.. |Codecov| image:: https://codecov.io/gh/SRSteinkamp/pymtrf/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/SRSteinkamp/pymtrf
