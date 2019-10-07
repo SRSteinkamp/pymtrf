@@ -63,18 +63,18 @@ def regularized_regression_fit(X, y, m, alpha=1.0):
     """
 
     if X.shape[0] < X.shape[1]:
-        warnings.warn(f'X: more features {X.shape[1]}' +
-                      f' than samples {X.shape[0]}, check input dimensions!')
+        warnings.warn(UserWarning(f'X: more features {X.shape[1]}' +
+                      f' than samples {X.shape[0]}, check input dimensions!'))
     if y.shape[0] < y.shape[1]:
-        warnings.warn(f'y: more features {y.shape[1]}' +
-                      f' than samples {y.shape[0]}, check input dimensions!')
+        warnings.warn(UserWarning(f'y: more features {y.shape[1]}' +
+                      f' than samples {y.shape[0]}, check input dimensions!'))
 
     assert alpha >= 0, 'reg_lambda has to be positive!'
     assert X.shape[0] == y.shape[0], f'Cannot multiply X with dim {X.shape[0]}' \
                                      + f' and y with dim {y.shape[0]}'
 
     if np.sum(X[:, 0] == 1) != X.shape[0]:
-        warnings.warn('Please check, whether an intercept term has been added!')
+        warnings.warn(UserWarning('Please check, whether an intercept term has been added!'))
 
     # TODO Tests: 1, 2 numerical tests
 
@@ -144,7 +144,7 @@ def test_input_dimensions(x):
         n_trials = x.shape[0]
         n_feat = x.shape[2]
     else:
-        raise ValueError('Input shut be either a list of np.arrays or a single' +
+        raise ValueError('Input should be either a list of np.arrays or a single' +
                          ' np.array of shape trials x times x features')
 
     return n_trials, n_feat
