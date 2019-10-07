@@ -11,10 +11,13 @@ python:
 
 before_install:
   - pip install codecov
+  - pip install pytest-cov
+
   - pip install .
 
 script:
-  - pytest
+  - pytest --cov=./
   
 after_success:
   - codecov # submit coverage
+  - bash <(curl -s https://codecov.io/bash)

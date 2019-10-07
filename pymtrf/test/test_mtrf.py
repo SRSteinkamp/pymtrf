@@ -258,7 +258,7 @@ def test_mtrf_multicross_val_unequal_fwd():
 def test_mtrf_transform_fwd():
     # Output works, but matrix is quite ill conditioned (I think) therefore,
     # low precision in this step.
-    t_precision = 2
+    t_precision = 1
     x, model, y = build_test_data()
     data = loadmat(f'pymtrf{os.sep}test{os.sep}test_files{os.sep}mtrf_transform_fwd.mat')
     model_t = data['model_t']
