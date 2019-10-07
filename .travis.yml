@@ -1,9 +1,14 @@
+branches:
+  only:
+  - master
+  - stable
+
 # Test push
 matrix:
     include:
       - os: linux
         dist: xenial   
-        
+     
 language: python
 python:
   - "3.6"
