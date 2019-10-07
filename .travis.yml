@@ -11,6 +11,8 @@ python:
 
 before_install:
   - pip install codecov
+  - pip install pytest-cov
+
   - pip install .
 
 script:
