@@ -76,8 +76,6 @@ def regularized_regression_fit(X, y, m, alpha=1.0):
     if np.sum(X[:, 0] == 1) != X.shape[0]:
         warnings.warn(UserWarning('Please check, whether an intercept term has been added!'))
 
-    # TODO Tests: 1, 2 numerical tests
-
     xtx = X.T.dot(X)
     xtx += m * alpha
 
