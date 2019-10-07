@@ -50,12 +50,28 @@ def test_quadratic_regularization_5():
                          [0, 0, 0, -1, 1]])
     assert np.all(m_mat == test_mat)
 
-def test_create_test_data():
+
+def test_create_test_data_x():
     x_shape = np.array([64 * 8, 5])
     y_shape = np.array([64 * 8, 6])
     model_shape = np.array([5, 9, 6])
-    x, model, y =build_test_data()
+    x, _, _ = build_test_data()
     assert np.all(x.shape == x_shape)
-    assert np.all(model.shape == model_shape)
-    assert np.all(y.shape == y_shape)
 
+
+def test_create_test_data_model():
+    x_shape = np.array([64 * 8, 5])
+    y_shape = np.array([64 * 8, 6])
+    model_shape = np.array([5, 9, 6])
+    _, model, _ = build_test_data()
+
+    assert np.all(model.shape == model_shape)
+
+
+def test_create_test_data_y():
+    x_shape = np.array([64 * 8, 5])
+    y_shape = np.array([64 * 8, 6])
+    model_shape = np.array([5, 9, 6])
+    _, _, y =build_test_data()
+
+    assert np.all(y.shape == y_shape)
