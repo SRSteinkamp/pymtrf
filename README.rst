@@ -173,3 +173,8 @@ Wishlist
 
 .. |Codecov| image:: https://codecov.io/gh/SRSteinkamp/pymtrf/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/SRSteinkamp/pymtrf
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/f9c888a4b6584a4bb3f72e8fb1920425
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/manual/SRSteinkamp/pymtrf?utm_source=github.com&utm_medium=referral&utm_content=SRSteinkamp/pymtrf&utm_campaign=Badge_Grade_Settings
