@@ -1,6 +1,9 @@
 |Travis| |Codecov| |Codacy|
 
+Important
+=========
 
+This project is not actively maintained anymore and I would suggest you check out: https://github.com/powerfulbean/mTRFpy 
    
 pymtrf
 ======
