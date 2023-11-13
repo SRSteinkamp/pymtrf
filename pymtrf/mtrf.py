@@ -153,7 +153,7 @@ def mtrf_predict(stim, resp, model, fs, mapping_direction, tmin, tmax, constant)
     '''performs a convolution of the stimulus property or the neural response
     data with their linear mapping function (estimated by mtrf_train) to solve
     predict the neural response (mapping_direction = 1) or the stimulus property
-    (mapping_direction = 1).
+    (mapping_direction = -1).
 
     Parameters
     ----------
